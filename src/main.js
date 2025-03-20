@@ -21,7 +21,7 @@ window.next = next
 
 function render(data) {
   const container = document.getElementById("app")
-  const pokeContainer = document.createElement("div")
+  const pokeContainer = document.createElement("a")
   pokeContainer.className = "poke-container"
 
   container.innerText = ''
